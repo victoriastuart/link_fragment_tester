@@ -103,8 +103,7 @@ In Vim, I use the <a href="https://github.com/jlanzarotta/bufexplorer">BufExplor
 
 **SAMPLE OUTPUT: TEST DIRECTORY**
 
-    lft: link_fragment_tester.sh
-
+```bash
 cnp_* file found; skipping
 
 ----------------------------------------
@@ -175,6 +174,7 @@ URL:/mnt/Vancouver/domains/buriedtruth.com/linkchecker-tests/linkchecker-test_fi
 [victoria@victoria link_fragment_tester]$ 
 
 ==============================================================================
+```
 
 ---
 
