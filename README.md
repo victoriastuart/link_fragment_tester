@@ -1,5 +1,5 @@
 # link_fragment_tester
-BASH script to test link fragments (part after #) in URLs in local files (before publishing to web)
+`link_fragment_tester` is a BASH script to test link fragments (part after #) in URLs in local files (before publishing to web)
 
 Hello!  I've been building my website (<a href="https://buriedtruth.com/"><b>BuriedTruth.com</b></a> -- adding content (HTML files) into a documents (`docs`) folder and (for now) linking them to a <a href="https://buriedtruth.com/index.html">BuriedTruth.com/index.html</a> page.
 
