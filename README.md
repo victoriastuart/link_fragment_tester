@@ -55,7 +55,7 @@ You'll have to make some edits to that script for your use, but hopefully those 
     zuckerberg_says_facebooks_new_approach_will_piss_off_a_lot_of_people.html
 
 [victoria@victoria docs]$ du -h /mnt/Vancouver/domains/buriedtruth.com/1.0/docs/
-    56M	/mnt/Vancouver/domains/buriedtruth.com/1.0/docs/V
+    56M	/mnt/Vancouver/domains/buriedtruth.com/1.0/docs/
 ```
 
 **Sample output** (with my "post-script" corrections manually added, here)
