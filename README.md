@@ -66,21 +66,35 @@ You'll have to make some edits to that script for your use, but hopefully those 
 ```bash
 victoria@victoria docs]$ cat /mnt/Vancouver/domains/buriedtruth.com/1.0/link_fragment_errors.txt
 
+FILE:/mnt/Vancouver/domains/buriedtruth.com/1.0/index.html
+URL:/mnt/Vancouver/domains/buriedtruth.com/1.0/index.html#docs/family_research_council.html#anti-lgbt
+    ## correction: removed "#" from "#docs/..." 
+
+FILE:/mnt/Vancouver/domains/buriedtruth.com/1.0/index.html
+URL:/mnt/Vancouver/domains/buriedtruth.com/1.0/index.html#proud_boys>Who
+    ## correction: removed ">Who"
+
+FILE:/mnt/Vancouver/domains/buriedtruth.com/1.0/index.html
+URL:/mnt/Vancouver/domains/buriedtruth.com/1.0/index.html#exxonmobile-slate
+    ## correction: "#exxonmobile-slate" replaced with 
+    ## "docs/exxonmobil-congress-arms-mediterranean-offshore-natural-gas.html"
+
 FILE:/mnt/Vancouver/domains/buriedtruth.com/1.0/docs/Acton_Institute.html
 URL:/mnt/Vancouver/domains/buriedtruth.com/1.0/index.html#exxonmobile
-    ## correction: exxonmobil
+    ## correction: "exxonmobil", not "exxonmobile"
 
 FILE:/mnt/Vancouver/domains/buriedtruth.com/1.0/docs/coastal-gas-link-rail-blockades-facebook.html
 URL:/mnt/Vancouver/domains/buriedtruth.com/1.0/index.html#manning_centre
-    ## correction: canada_strong_and_free_network [Manning Centre was renamed as such ...]
+    ## correction: changed "manning_centre" to "canada_strong_and_free_network"
+    ## [the Manning Centre was renamed as such ...]
 
 FILE:/mnt/Vancouver/domains/buriedtruth.com/1.0/docs/Competitive_Enterprise_Institute.html
 URL:/mnt/Vancouver/domains/buriedtruth.com/1.0/index.html#libertarian>
-    ## correction: removed errant > at end of libertarian
+    ## correction: removed errant ">" at end of "libertarian>"
 
 FILE:/mnt/Vancouver/domains/buriedtruth.com/1.0/docs/donald-j-trump-deep-state.html
 URL:/mnt/Vancouver/domains/buriedtruth.com/1.0/index.html#<b>Donors
-    ## correction: mangled URL#link fragment -- added correct "koch_family" link fragment
+    ## correction: mangled URL#link fragment; "koch_family" is the correct link fragment
 
 [ ... snip ... ]
 ```
