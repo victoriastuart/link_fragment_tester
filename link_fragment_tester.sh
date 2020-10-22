@@ -78,6 +78,10 @@ i=1
 rm -f /tmp/link_fragment_errors.txt
 START=$(date +"%s")                                                             ## seconds since Epoch
 
+## I also want to scan my index.html page (../ relative to docs/) so I symlink it there,
+## run the script (loop), then remove it.
+ln -s /mnt/Vancouver/domains/buriedtruth.com/1.0/index.html /mnt/Vancouver/domains/buriedtruth.com/1.0/docs/
+
 # ----------------------------------------------------------------------------
 ## MAIN (LOOP)
 
@@ -139,6 +143,9 @@ do
         fi
     done </tmp/tmp_link
 done
+
+## At top of script I symlinked index.html to docs, to also scan link fragments in that file.
+rm -f /mnt/Vancouver/domains/buriedtruth.com/1.0/docs/index.html
 
 # ----------------------------------------------------------------------------
 ## SCRIPT COMPLETION
