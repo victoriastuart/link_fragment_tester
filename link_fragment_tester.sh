@@ -7,6 +7,7 @@ export LANG=C.UTF-8
 #       created: 2020-10-14
 #       version: 05
 # last modified: 2020-10-22 11:34:58 -0700 (PST)
+#   GitHub repo: https://github.com/victoriastuart/link_fragment_tester
 #     ~/.bashrc: lft
 #         usage: cd to dir with html documents; execute script: lft
 # 
