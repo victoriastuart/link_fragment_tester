@@ -34,10 +34,13 @@ As always, see my script for details / comments.
 
 You'll have to make some edits to that script for your use, but hopefully those edits will be clear, upon studying the code.
 
+---
+
 **Data summary**
 
 ```bash
-[victoria@victoria docs]$ ls | wc -l ; cat * | wc -c; echo; ls | head -n5 ; echo; ls | tail -n5  ## wc -l : no. of files; wc -m : no. of char
+[victoria@victoria docs]$ ls | wc -l ; cat * | wc -c; echo; ls | head -n5 ; \
+    echo; ls | tail -n5  ## wc -l : no. of files; wc -m : no. of char
 
     2135       ##      2,135 files, containing (in aggregate)
     53098515   ## 53,098,515 characters (bytes, essentially)
