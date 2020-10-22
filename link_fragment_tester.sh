@@ -72,6 +72,8 @@ export LANG=C.UTF-8
     [victoria@victoria docs]$ 
 COMMENT
 
+## Additional notes: https://github.com/victoriastuart/link_fragment_tester/blob/main/README.md
+
 # ----------------------------------------------------------------------------`
 ## INITIALIZATIONS
 
