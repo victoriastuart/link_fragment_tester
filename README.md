@@ -5,7 +5,7 @@
 
 I've been building my website (<a href="https://buriedtruth.com/"><b>BuriedTruth.com</b></a> -- adding content (HTML files) into a documents (`docs`) folder and (for now) linking them to a <a href="https://buriedtruth.com/index.html">BuriedTruth.com/index.html</a> page.
 
-I've been careful to minimize errors, such as malformed / broken URLs (checked using `<a href="https://github.com/linkchecker/linkchecker/issues/519">linkchecker</a>`).
+I've been careful to minimize errors, such as malformed / broken URLs (checked using <a href="https://github.com/linkchecker/linkchecker/issues/519">`linkchecker`</a>).
 
 I also use a lot of "link fragments" -- the part after `#` in URLs -- for intra- and inter-document text linking.  It turns out this issue manifests client side and appears to be a challenging issue ... so there are limited available tools for finding and correcting link fragment errors.
 
