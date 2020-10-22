@@ -39,8 +39,8 @@ You'll have to make some edits to that script for your use, but hopefully those 
 ```bash
 [victoria@victoria docs]$ ls | wc -l ; cat * | wc -c; echo; ls | head -n5 ; echo; ls | tail -n5  ## wc -l : no. of files; wc -m : no. of char
 
-    2135
-    53098515
+    2135       ## 2,135 files, containing (in aggregate)
+    53098515   ## 53,098,515 characters (bytes, essentially)
 
     1033_program.html
     11-million-dollar-question-for-tides-canada.html
@@ -54,7 +54,8 @@ You'll have to make some edits to that script for your use, but hopefully those 
     zuckerberg_says_facebooks_goal_is_no_longer_to_be_liked.html
     zuckerberg_says_facebooks_new_approach_will_piss_off_a_lot_of_people.html
 
-[victoria@victoria docs]$ 
+[victoria@victoria docs]$ du -h /mnt/Vancouver/domains/buriedtruth.com/1.0/docs/
+    56M	/mnt/Vancouver/domains/buriedtruth.com/1.0/docs/V
 ```
 
 **Sample output** (with my "post-script" corrections manually added, here)
